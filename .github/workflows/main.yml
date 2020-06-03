@@ -32,4 +32,4 @@ jobs:
     - name: Run a multi-line script
       run: npm install --global surge
     - name: Deployment using surge
-      run: surge ./ ad-stretch.surge.sh --token "3c20f8e5a18e4a488c28028f7f8a243a"
+      run: surge ./ ad-stretch.surge.sh --token {{secret.BIG-SECRET}}
